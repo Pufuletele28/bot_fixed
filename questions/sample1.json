@@ -1,0 +1,10 @@
+{
+    "question": "How many fingers am I holding up?",
+    "responses": [
+        "One",
+        "Four",
+        "Ten",
+        "Indeterminate"
+    ],
+    "answer": "Indeterminate"
+}

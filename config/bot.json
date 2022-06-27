@@ -1,0 +1,19 @@
+{
+  "colour": "BLUE",
+  "wrongcolour": "RED",
+  "footertext": "Coded By Sn00pCatt",
+  "footericon": "https://i.imgur.com/tXUPD1S.png",
+  "WelcomeImage ": "https://i.imgur.com/Wj5IGQL.jpeg",
+  "categories": {
+    "chatfilter": "📻",
+    "giveaway": "🎉",
+    "information": "📻",
+    "invites": "📻",
+    "leveling": "🎂",
+    "music": "📻",
+    "musicfilter": "📻",
+    "quiz": "📻",
+    "ticket": "🎫",
+    "welcome_leave": "✨"
+  }
+}

@@ -1,0 +1,215 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 21.5M    0 81902    0     0   130k      0  0:02:48 --:--:--  0:02:48  130k 96 21.5M   96 20.7M    0     0  12.8M      0  0:00:01  0:00:01 --:--:-- 12.8M100 21.5M  100 21.5M    0     0  13.1M      0  0:00:01  0:00:01 --:--:-- 13.1M
+npm WARN deprecated node-pre-gyp@0.17.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future
+
+added 67 packages, and audited 68 packages in 3s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice 
+npm notice New minor version of npm available! 8.5.1 -> 8.8.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v8.8.0>
+npm notice Run `npm install -g npm@8.8.0` to update!
+npm notice 
+
+changed 33 packages, and audited 712 packages in 5s
+
+50 packages are looking for funding
+  run `npm fund` for details
+
+3 vulnerabilities (2 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+> gymrats@3.1.0 start
+> node index.js
+
+MongoDB Conneted..
+.-----------------------------------------.
+|                Commands                 |
+|-----------------------------------------|
+|         Command          |  Load status |
+|--------------------------|--------------|
+| addword.js               | ✅            |
+| delword.js               | ✅            |
+| setwarnmsg.js            | ✅            |
+| words.js                 | ✅            |
+| g-create.js              | ✅            |
+| g-end.js                 | ✅            |
+| g-list.js                | ✅            |
+| g-reroll.js              | ✅            |
+| g-start.js               | ✅            |
+| botinfo.js               | ✅            |
+| channel.js               | ✅            |
+| channelinfo.js           | ✅            |
+| help.js                  | ✅            |
+| membercount.js           | ✅            |
+| ping.js                  | ✅            |
+| quiz.js                  | ✅            |
+| say.js                   | ✅            |
+| userinfo.js              | ✅            |
+| invites.js               | ✅            |
+| invitesleaderboard.js    | ✅            |
+| check-level.js           | ✅            |
+| lb.js                    | ✅            |
+| level-setup.js           | ✅            |
+| level.js                 | ✅            |
+| rank.js                  | ✅            |
+| set-level-channel.js     | ✅            |
+| addrelated.js            | ✅            |
+| autoplay.js              | ✅            |
+| clearqueue.js            | ✅            |
+| forward.js               | ✅            |
+| grab.js                  | ✅            |
+| jump.js                  | ✅            |
+| loop.js                  | ✅            |
+| lyrics.js                | ✅            |
+| moveme.js                | ✅            |
+| nowplaying.js            | ✅            |
+| pause.js                 | ✅            |
+| play.js                  | ✅            |
+| playsc.js                | ✅            |
+| playskip.js              | ✅            |
+| queue.js                 | ✅            |
+| removetrack.js           | ✅            |
+| replay.js                | ✅            |
+| resume.js                | ✅            |
+| rewind.js                | ✅            |
+| search.js                | ✅            |
+| searchrelated.js         | ✅            |
+| searchsc.js              | ✅            |
+| seek.js                  | ✅            |
+| shuffle.js               | ✅            |
+| skip.js                  | ✅            |
+| status.js                | ✅            |
+| stop.js                  | ✅            |
+| volume.js                | ✅            |
+| bassboost.js             | ✅            |
+| clear.js                 | ✅            |
+| echo.js                  | ✅            |
+| heavybass.js             | ✅            |
+| purebass.js              | ✅            |
+| treble.js                | ✅            |
+| t-add.js                 | ✅            |
+| t-close.js               | ✅            |
+| t-delete.js              | ✅            |
+| t-new.js                 | ✅            |
+| t-open.js                | ✅            |
+| t-remove.js              | ✅            |
+| check-welcome-channel.js | ✅            |
+| set-welcome-channel.js   | ✅            |
+'-----------------------------------------'
+Logging in...
+(node:59) DeprecationWarning: DisTubeOptions.youtubeDL is deprecated, set it to false and use `@distube/yt-dlp` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[DisTube] Updated youtube-dl to 2022.04.08!
+ > 🗸 Cached Database Entries
+GymRats Bot ✅
+ >  Logged in as: GymRats Bot#3627
+ >  Checked Invites
+/home/minecraft/multicraft/servers/server293524/node_modules/mongoose/lib/connection.js:847
+  const serverSelectionError = new ServerSelectionError();
+                               ^
+
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at NativeConnection.Connection.openUri (/home/minecraft/multicraft/servers/server293524/node_modules/mongoose/lib/connection.js:847:32)
+    at /home/minecraft/multicraft/servers/server293524/node_modules/mongoose/lib/index.js:351:10
+    at /home/minecraft/multicraft/servers/server293524/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/minecraft/multicraft/servers/server293524/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/home/minecraft/multicraft/servers/server293524/node_modules/mongoose/lib/index.js:1149:10)
+    at Mongoose.connect (/home/minecraft/multicraft/servers/server293524/node_modules/mongoose/lib/index.js:350:20)
+    at Object.<anonymous> (/home/minecraft/multicraft/servers/server293524/index.js:27:4)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1151:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map(3) {
+      'cluster0-shard-00-00.sona4.mongodb.net:27017' => ServerDescription {
+        address: 'cluster0-shard-00-00.sona4.mongodb.net:27017',
+        error: MongoNetworkError: connection <monitor> to 16.170.193.238:27017 closed
+            at Connection.handleIssue (/home/minecraft/multicraft/servers/server293524/node_modules/mongodb/lib/cmap/connection.js:131:15)
+            at TLSSocket.<anonymous> (/home/minecraft/multicraft/servers/server293524/node_modules/mongodb/lib/cmap/connection.js:64:35)
+            at TLSSocket.emit (node:events:527:28)
+            at node:net:688:12
+            at TCP.done (node:_tls_wrap:582:7),
+        roundTripTime: -1,
+        lastUpdateTime: 29330050964,
+        lastWriteDate: null,
+        opTime: null,
+        type: 'Unknown',
+        topologyVersion: undefined,
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: []
+      },
+      'cluster0-shard-00-01.sona4.mongodb.net:27017' => ServerDescription {
+        address: 'cluster0-shard-00-01.sona4.mongodb.net:27017',
+        error: MongoNetworkError: connection <monitor> to 16.170.27.191:27017 closed
+            at Connection.handleIssue (/home/minecraft/multicraft/servers/server293524/node_modules/mongodb/lib/cmap/connection.js:131:15)
+            at TLSSocket.<anonymous> (/home/minecraft/multicraft/servers/server293524/node_modules/mongodb/lib/cmap/connection.js:64:35)
+            at TLSSocket.emit (node:events:527:28)
+            at node:net:688:12
+            at TCP.done (node:_tls_wrap:582:7),
+        roundTripTime: -1,
+        lastUpdateTime: 29330049588,
+        lastWriteDate: null,
+        opTime: null,
+        type: 'Unknown',
+        topologyVersion: undefined,
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: []
+      },
+      'cluster0-shard-00-02.sona4.mongodb.net:27017' => ServerDescription {
+        address: 'cluster0-shard-00-02.sona4.mongodb.net:27017',
+        error: MongoNetworkError: connection <monitor> to 16.170.66.47:27017 closed
+            at Connection.handleIssue (/home/minecraft/multicraft/servers/server293524/node_modules/mongodb/lib/cmap/connection.js:131:15)
+            at TLSSocket.<anonymous> (/home/minecraft/multicraft/servers/server293524/node_modules/mongodb/lib/cmap/connection.js:64:35)
+            at TLSSocket.emit (node:events:527:28)
+            at node:net:688:12
+            at TCP.done (node:_tls_wrap:582:7),
+        roundTripTime: -1,
+        lastUpdateTime: 29330049307,
+        lastWriteDate: null,
+        opTime: null,
+        type: 'Unknown',
+        topologyVersion: undefined,
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: []
+      }
+    },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  }
+}
+
+Node.js v17.6.0

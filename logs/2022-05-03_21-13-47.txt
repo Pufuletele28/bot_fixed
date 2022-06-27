@@ -1,0 +1,39 @@
+npm ERR! Unexpected end of JSON input while parsing near '...B6wFSJE3G00nEivR5rgWp'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /tmp/.npm-global/_logs/2022-05-03T21_13_48_405Z-debug.log
+
+> gymrats@3.1.0 start /home/minecraft/multicraft/servers/server293524
+> node index.js
+
+internal/modules/cjs/loader.js:960
+  throw err;
+  ^
+
+Error: Cannot find module 'discord.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server293524/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/home/minecraft/multicraft/servers/server293524/index.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server293524/index.js' ]
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! gymrats@3.1.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the gymrats@3.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /tmp/npm/_logs/2022-05-03T21_13_48_681Z-debug.log

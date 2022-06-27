@@ -1,0 +1,138 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 43 21.5M   43 9535k    0     0  8409k      0  0:00:02  0:00:01  0:00:01 8401k100 21.5M  100 21.5M    0     0  14.8M      0  0:00:01  0:00:01 --:--:-- 14.8M
+npm WARN deprecated node-pre-gyp@0.17.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future
+
+added 67 packages, and audited 68 packages in 3s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice 
+npm notice New minor version of npm available! 8.5.1 -> 8.10.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v8.10.0>
+npm notice Run `npm install -g npm@8.10.0` to update!
+npm notice 
+
+changed 33 packages, and audited 712 packages in 6s
+
+50 packages are looking for funding
+  run `npm fund` for details
+
+3 vulnerabilities (2 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+> gymrats@3.1.0 start
+> node index.js
+
+MongoDB Conneted..
+.-----------------------------------------.
+|                Commands                 |
+|-----------------------------------------|
+|         Command          |  Load status |
+|--------------------------|--------------|
+| addword.js               | ✅            |
+| delword.js               | ✅            |
+| setwarnmsg.js            | ✅            |
+| words.js                 | ✅            |
+| g-create.js              | ✅            |
+| g-end.js                 | ✅            |
+| g-list.js                | ✅            |
+| g-reroll.js              | ✅            |
+| g-start.js               | ✅            |
+| botinfo.js               | ✅            |
+| channel.js               | ✅            |
+| channelinfo.js           | ✅            |
+| help.js                  | ✅            |
+| membercount.js           | ✅            |
+| ping.js                  | ✅            |
+| quiz.js                  | ✅            |
+| say.js                   | ✅            |
+| userinfo.js              | ✅            |
+| invites.js               | ✅            |
+| invitesleaderboard.js    | ✅            |
+| check-level.js           | ✅            |
+| lb.js                    | ✅            |
+| level-setup.js           | ✅            |
+| level.js                 | ✅            |
+| rank.js                  | ✅            |
+| set-level-channel.js     | ✅            |
+| addrelated.js            | ✅            |
+| autoplay.js              | ✅            |
+| clearqueue.js            | ✅            |
+| forward.js               | ✅            |
+| grab.js                  | ✅            |
+| jump.js                  | ✅            |
+| loop.js                  | ✅            |
+| lyrics.js                | ✅            |
+| moveme.js                | ✅            |
+| nowplaying.js            | ✅            |
+| pause.js                 | ✅            |
+| play.js                  | ✅            |
+| playsc.js                | ✅            |
+| playskip.js              | ✅            |
+| queue.js                 | ✅            |
+| removetrack.js           | ✅            |
+| replay.js                | ✅            |
+| resume.js                | ✅            |
+| rewind.js                | ✅            |
+| search.js                | ✅            |
+| searchrelated.js         | ✅            |
+| searchsc.js              | ✅            |
+| seek.js                  | ✅            |
+| shuffle.js               | ✅            |
+| skip.js                  | ✅            |
+| status.js                | ✅            |
+| stop.js                  | ✅            |
+| volume.js                | ✅            |
+| bassboost.js             | ✅            |
+| clear.js                 | ✅            |
+| echo.js                  | ✅            |
+| heavybass.js             | ✅            |
+| purebass.js              | ✅            |
+| treble.js                | ✅            |
+| t-add.js                 | ✅            |
+| t-close.js               | ✅            |
+| t-delete.js              | ✅            |
+| t-new.js                 | ✅            |
+| t-open.js                | ✅            |
+| t-remove.js              | ✅            |
+| check-welcome-channel.js | ✅            |
+| set-welcome-channel.js   | ✅            |
+'-----------------------------------------'
+Logging in...
+(node:58) DeprecationWarning: DisTubeOptions.youtubeDL is deprecated, set it to false and use `@distube/yt-dlp` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[DisTube] Updated youtube-dl to 2022.05.18!
+ > 🗸 Cached Database Entries
+GymRats Bot ✅
+ >  Logged in as: GymRats Bot#3627
+ >  Checked Invites
+/home/minecraft/multicraft/servers/server293524/index.js:371
+        let verifybutton = new button.MessageButton().setStyle("green").setLabel("Verify").setID("verifybutton")
+                           ^
+
+ReferenceError: button is not defined
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server293524/index.js:371:28)
+    at Client.emit (node:events:539:35)
+    at MessageCreateAction.handle (/home/minecraft/multicraft/servers/server293524/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/minecraft/multicraft/servers/server293524/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/minecraft/multicraft/servers/server293524/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/minecraft/multicraft/servers/server293524/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/minecraft/multicraft/servers/server293524/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/minecraft/multicraft/servers/server293524/node_modules/discord.js/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (node:events:527:28)
+    at Receiver.receiverOnMessage (/home/minecraft/multicraft/servers/server293524/node_modules/discord.js/node_modules/ws/lib/websocket.js:1047:20)
+    at Receiver.emit (node:events:527:28)
+    at Receiver.dataMessage (/home/minecraft/multicraft/servers/server293524/node_modules/discord.js/node_modules/ws/lib/receiver.js:517:14)
+    at Receiver.getData (/home/minecraft/multicraft/servers/server293524/node_modules/discord.js/node_modules/ws/lib/receiver.js:435:17)
+    at Receiver.startLoop (/home/minecraft/multicraft/servers/server293524/node_modules/discord.js/node_modules/ws/lib/receiver.js:143:22)
+    at Receiver._write (/home/minecraft/multicraft/servers/server293524/node_modules/discord.js/node_modules/ws/lib/receiver.js:78:10)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+
+Node.js v17.6.0
