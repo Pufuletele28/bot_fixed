@@ -49,16 +49,18 @@ client.categories = fs.readdirSync("./commands/");
 
 // host bot
 
-// const express = require("express")
-// const app = express();
+const express = require("express")
+const app = express();
+const port = process.env.PORT || 5000
 
-// app.get("/", (req, res) => {
-//   res.send(`Pinging`)
-// })
+app.get("/", (req, res) => {
+  res.send(`Pinging`)
+})
 
-// app.listen(() => {
-//   console.log(`Server Started..`)
-// })
+
+app.listen((port) => {
+  console.log(`Server Started..`)
+})
 
 //databases setups
 const Enmap = require("enmap");
